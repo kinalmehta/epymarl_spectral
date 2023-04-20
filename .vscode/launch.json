@@ -1,0 +1,19 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${cwd}/src_spectral/main.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args": ["--config=vdn", "--env-config=sc2_sparse", "with", "env_args.map_name=3s5z_vs_3s6z",
+      "standardise_returns=True", "use_rnn=True", "policy_spectral='nnny'", "critic_spectral='nnn'",
+      "t_max=4050000"]
+    }
+  ]
+}
